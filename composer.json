@@ -1,0 +1,27 @@
+{
+    "name": "gone/oss",
+    "description": "this is gone oss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "郑建都",
+            "email": "296266114@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "hyperf/config": "^3.0",
+        "aliyuncs/oss-sdk-php": "^2.6",
+        "qiniu/php-sdk": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gone\\Oss\\": "src/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Gone\\Oss\\ConfigProvider"
+        }
+    }
+}
