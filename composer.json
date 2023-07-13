@@ -1,13 +1,7 @@
 {
-    "name": "gone/oss",
+    "name": "zjd/oss",
     "description": "this is gone oss",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "郑建都",
-            "email": "296266114@qq.com"
-        }
-    ],
     "require": {
         "php": ">=8.0",
         "hyperf/config": "^3.0",
